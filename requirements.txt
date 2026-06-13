@@ -1,0 +1,6 @@
+chromadb
+langchain-text-splitters
+numpy
+ollama
+regex
+sentence-transformers

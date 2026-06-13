@@ -1,0 +1,26 @@
+# 1. Виртуальное окружение Python (никогда не коммитим!)
+.venv/
+venv/
+env/
+
+# 2. Локальная векторная база данных ChromaDB
+chroma_db/
+
+# 3. Временные файлы Python (кэш)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Настройки IDE (PyCharm / VS Code)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 5. Системные файлы Windows и macOS (мусор)
+.DS_Store
+Thumbs.db
+
+# 6. Файлы с секретами (на будущее, если будешь использовать API ключи)
+.env
+*.log
