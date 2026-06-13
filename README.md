@@ -2,19 +2,6 @@
 
 > Учебный проект, демонстрирующий полный цикл создания RAG-системы: от индексации текста до оценки качества. Оптимизирован для работы на устройствах с 8 ГБ ОЗУ без облачных API.
 
-## 📊 Архитектура
-
-```mermaid
-graph LR
-  A[knowledge.txt] --> B(Chunking & Embedding)
-  B --> C[ChromaDB]
-  D[User Query] --> E(Embed Query)
-  E --> C
-  C --> F[Top-K Retrieval]
-  F --> G[Reranking / Scoring]
-  G --> H[Ollama LLM]
-  H --> I[Answer]
-
 🛠️ Технологический стек
 Компонент
 Инструмент
